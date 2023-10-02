@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>Budget Tracker</title>
+</head>
+<body class="bg-[#1E1E1E] py-[6rem] lg:p-0 px-[1rem] lg:flex items-center justify-center  flex-row-reverse">
+    <section class="lg:w-1/2 md:p-10">
+        <h1 class="text-center text-white text-[3.7rem] font-[400] leading-normal">Monthly <span class="text-[#51D289]">Budget</span></h1>
+
+       <div class="w-max mx-auto flex flex-col gap-[1rem] mt-[3rem]">
+            <div class="w-[20rem] h-[3rem] border-b border-[#A3A3A3] flex items-center justify-center">
+                <input class="w-full h-full text-[#A3A3A3] text-center placeholder:text-center bg-transparent  text-[1.3rem] font-[400] outline-none" type="text" placeholder="Insert Your Income">
+            </div>
+            <div class="w-[20rem] h-[3rem] border-b border-[#A3A3A3] flex items-center justify-center">
+                <input class="w-full h-full text-[#A3A3A3] text-center placeholder:text-center bg-transparent  text-[1.3rem] font-[400] outline-none" type="text" placeholder="Insert Your Name">
+            </div>
+            <div class="w-[20rem] h-[3rem] border-b border-[#A3A3A3] flex items-center justify-center">
+
+                <input class="w-full h-full text-[#A3A3A3] text-center placeholder:text-center bg-transparent  text-[1.3rem] font-[400] outline-none" type="text" placeholder="Insert Your Goals">
+            </div>
+            
+            <button class="w-full bg-[#FFE600] flex items-center justify-center rounded-[.2rem] p-4 mt-[4rem]">
+                Start Your Calculation
+            </button>
+       </div>
+    </section> 
+
+
+    <div class="hidden lg:block bg-white w-1/2 h-screen">
+        <div class="md:block relative h-full ">
+            <p class="text-[2.6rem] font-[400] capitalize pt-[5rem] w-1/2 ml-[3rem]">Calculate smarter, 
+                spend wiser ...</p>
+            <img class="absolute bottom-0" src="./welcome.svg" alt="welcome">
+       </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="output.css">
+    <title>index.html</title>
+</head>
+<body class="bg-[#1E1E1E] ">
+
+<div class="w-11/12 max-w-[85.5rem] mx-auto p-4">  
+    <header class="lg:flex items-center justify-between">
+        <div class=" lg:w-9/12 flex items-center md:justify-between">
+
+
+           <div class="flex items-center gap-[1rem]">
+            <img class="hidden md:block" src="./images/bigDollar.svg" alt="dollar">
+            <img class="md:hidden" src="/images/dollar-logo.svg" alt="dollar">
+            <h1 class="flex flex-col  text-[#FFE600] font-[.5rem] font-[400] lg:font-[600] text-[1.5rem] ">Expenses <span class="text-[1.8rem] md:text-[2.5rem] lg:text-[4rem] font-[400] lg:font-[800] text-[#FFFDE7]">Monthly <span class="text-[#51D289]">Budget</span></span></h1>
+           </div>
+
+            <div class="hidden md:block">
+        
+                <button class=" md:block bg-[#FFE600] flex items-center justify-center rounded-[.2rem] py-[.75rem] px-[2.5rem] text-[1.3rem] font-[600]">New Expense</button>
+             </div>
+        </div>
+    
+        <h1 class="md:flex items-center gap-[.5rem] text-white text-[1.2rem] md:text-[1.5rem] font-[400] leading-normal  mt-[.9rem]"><img class="hidden lg:block" src="./images/user.svg" alt="user">Welcome Alexander!</h1>
+    </header>
+
+    <!-- !! This is the horizontal line that will separate the sections -->
+    <div class="w-full h-[.06rem] bg-[#FFFDE7] mt-[1.7rem]">
+
+    </div>
+    <!-- !!End of the horizontal line -->
+
+   <div class="md:flex items-center justify-around md:mt-[2.6rem] lg:gap-[2rem] flex-wrap lg:flex-row-reverse">
+    <section class="relative md:max-w-[20rem] md:h-[40rem] bg-white p-4 text-[#1E1E1E] rounded-[.2rem]">
+        <h1 class="font-[400] text-[1.7rem] text-center">Calculation</h1>
+        <!-- !! This is the horizontal line that will separate the sections -->
+    <div class="w-full h-[.06rem] bg-[#B2B2B2] mt-[1.7rem]">
+
+    </div>
+    <!-- !!End of the horizontal line -->
+
+        <div class="p-4 flex flex-col items-center justify-center">
+            <h1 class="uppercase text-black font-[700] leading-normal text-[.7rem]">Income</h1>
+            <span class="text-[1.8rem] font-[400] leading-normal capitalize">&pound;2,700</span>
+        </div>
+
+        <div class="flex items-center justify-center">
+            <img src="./images/graph.svg" alt="graph">
+        </div>
+
+        <div class="flex gap-[.3rem] items-center justify-center mt-[2rem]">
+            <div class="w-[7.8rem] flex  flex-col items-center p-1 rounded-[.2rem] bg-[#1E1E1E]">
+
+                <h1 class=" font-[700] text-center text-white">Available</h1>
+                <span class="text-[#51D289]">&pound;2,000.00</span>
+            </div>
+            <div class="w-[7.8rem] flex  flex-col items-center p-1 rounded-[.2rem] bg-[#1E1E1E]">
+
+                <h1 class=" font-[700] text-center uppercase text-white">Spent</h1>
+                <span class="text-[#FFE600]">&pound;800.00</span>
+            </div>
+        </div>
+
+        <button class="bg-[#FFE600] text-black block  w-10/12 mx-auto p-4 rounded-[.2rem] mt-[4rem]">Reset Expenses</button>
+
+        <button type="button" class="md:hidden w-[3rem] h-[3rem] flex items-center justify-center rounded-full bg-[#FFE600] absolute right-[-1.5rem]">
+            <img src="./images/plus.svg" alt="Add-new-expense">
+        </button>
+    </section>
+
+    <section class="mt-[3rem] md:mt-0 md:max-w-[20rem] md:h-[40rem] bg-white p-4 text-[#1E1E1E] rounded-[.2rem]">
+        <h1 class="font-[400] text-[1.7rem] text-center">Optionals</h1>
+        <!-- !! This is the horizontal line that will separate the sections -->
+    <div class="w-full h-[.06rem] bg-[#B2B2B2] mt-[1.7rem]">
+
+    </div>
+    <!-- !!End of the horizontal line -->
+
+        <div>
+            <h1 class="uppercase text-black text-center mt-4 font-[700] leading-normal text-[.7rem]">Choose any fix expenses</h1>
+
+            <div class="w-10/12 mt-[1.5rem] mx-auto flex items-center justify-between">
+                
+               <div class="flex items-center gap-[1rem]">
+                <div class="rounded-full border-2 border-[#51D289]">
+                    <img src="./images/netflix.svg" alt="netflix">
+                </div>
+                <span class="uppercase">Netflix</span>
+               </div>
+
+               <button class="rounded-[1.2rem] text-black bg-[#51D289] text-[.8rem] font-[700] leading-normal py-[.3rem] px-[1rem] ">select</button>
+            </div>
+            <div class="w-10/12 mt-[1.5rem] mx-auto flex items-center justify-between">
+                
+               <div class="flex items-center gap-[1rem]">
+                <div class="rounded-full border-2 border-[#51D289]">
+                    <img src="./images/spotify.svg" alt="spotify">
+                </div>
+                <span class="uppercase">Spotify</span>
+               </div>
+
+               <button class="rounded-[1.2rem] text-black bg-[#51D289] text-[.8rem] font-[700] leading-normal py-[.3rem] px-[1rem] ">select</button>
+            </div>
+            <div class="w-10/12 mt-[1.5rem] mx-auto flex items-center justify-between">
+                
+               <div class="flex items-center gap-[1rem]">
+                <div class="rounded-full border-2 border-[#51D289]">
+                    <img src="./images/amazon.svg" alt="amazon">
+                </div>
+                <span class="uppercase">amazon</span>
+               </div>
+
+               <button class="rounded-[1.2rem] text-black bg-[#51D289] text-[.8rem] font-[700] leading-normal py-[.3rem] px-[1rem] ">select</button>
+            </div>
+            <div class="w-10/12 mt-[1.5rem] mx-auto flex items-center justify-between">
+                
+               <div class="flex items-center gap-[1rem]">
+                <div class="rounded-full border-2 border-[#51D289]">
+                    <img src="./images/google.svg" alt="google">
+                </div>
+                <span class="uppercase">google</span>
+               </div>
+
+               <button class="rounded-[1.2rem] text-black bg-[#51D289] text-[.8rem] font-[700] leading-normal py-[.3rem] px-[1rem] ">select</button>
+            </div>
+            <div class="w-10/12 mt-[1.5rem] mx-auto flex items-center justify-between">
+
+                
+               <div class="flex items-center gap-[1rem]">
+                <div class="rounded-full border-2 border-[#51D289]">
+                    <img src="./images/facebook.svg" alt="facebook">
+                </div>
+                <span class="uppercase">facebook</span>
+               </div>
+
+               <button class="rounded-[1.2rem] text-black bg-[#51D289] text-[.8rem] font-[700] leading-normal py-[.3rem] px-[1rem] ">select</button>
+            </div>
+        </div>
+
+        <h1 class="mt-[3rem] text-center text-[1.6rem] font-[400] text-black">Goals</h1>
+        <div class="border-l-[.2rem] border-[#51D289] p-2 text-black font-[700]">
+            "Save 10% of this amount entered this month from my salary"
+        </div>
+    </section>
+
+    <!-- !! This is the horizontal line that will separate the sections -->
+ <div class="w-full h-[.06rem] bg-[#FFFDE7] mt-[1.7rem] lg:hidden">
+
+ </div>
+ <!-- !!End of the horizontal line -->
+    
+        <section class="mx-auto md:w-[37rem] flex-none mt-[2rem] lg:self-start pb-4">
+            <div class="flex flex-col gap-[1rem]">
+                <div class="flex items-center justify-between">
+                    <h1 class="text-[#FFE600]">Description</h1>
+
+                <div class="p-2 rounded-[.2rem] border border-[#FFE600] flex gap-[.5rem]">
+                    <span class="text-white font-[700]">Filter Expenses |</span>
+                    <span class="text-[#FFE600] flex items-center">All <img src="./images/dropdown.svg" alt="drop"></span>
+                </div>
+                </div>
+
+                <!-- !Section of the items that are going to show the savings in summary -->
+                
+                <div class="text-white flex items-center justify-between">
+                    <div class="flex items-center gap-[.5rem]">
+                        <div class="w-[2.5rem] h-[2.5rem] rounded-full bg-[#51D289]">
+                            <img src="./images/debts.svg" alt="debts">
+                        </div>
+                        <div>
+                            <p>Debts</p>
+                        <p class="flex font-[700]"> <span class="font-[400] text-[.6rem] leading-[normal] self-start text-[#FFFDE7]">Date:</span>January, 12-2023</p>
+                        </div>
+                    </div>
+
+                    <span class="text-[#FFFDE7] text-[1.9rem] font-[400] leading-normal text-right">&pound;125.00</span>
+                </div>
+                <div class="text-white flex items-center justify-between">
+                    <div class="flex items-center gap-[.5rem]">
+                        <div class="w-[2.5rem] h-[2.5rem] rounded-full bg-[#51D289]">
+                            <img src="./images/food.svg" alt="food">
+                        </div>
+                        <div>
+                            <p>Debts</p>
+                        <p class="flex font-[700]"> <span class="font-[400] text-[.6rem] leading-[normal] self-start text-[#FFFDE7]">Date:</span>January, 12-2023</p>
+                        </div>
+                    </div>
+
+                    <span class="text-[#FFFDE7] text-[1.9rem] font-[400] leading-normal text-right">&pound;125.00</span>
+                </div>
+                <div class="text-white flex items-center justify-between">
+                    <div class="flex items-center gap-[.5rem]">
+                        <div class="w-[2.5rem] h-[2.5rem] rounded-full bg-[#51D289] flex items-center justify-center">
+                            <img src="./images/Deck.svg" alt="Deck">
+                        </div>
+                        <div>
+                            <p>Debts</p>
+                        <p class="flex font-[700]"> <span class="font-[400] text-[.6rem] leading-[normal] self-start text-[#FFFDE7]">Date:</span>January, 12-2023</p>
+                        </div>
+                    </div>
+
+                    <span class="text-[#FFFDE7] text-[1.9rem] font-[400] leading-normal text-right">&pound;125.00</span>
+                </div>
+                <div class="text-white flex items-center justify-between">
+                    <div class="flex items-center gap-[.5rem]">
+                        <div class="w-[2.5rem] h-[2.5rem] rounded-full bg-[#51D289] flex items-center justify-center">
+                            <img src="./images/Home.svg" alt="Home">
+                        </div>
+                        <div>
+                            <p>Debts</p>
+                        <p class="flex font-[700]"> <span class="font-[400] text-[.6rem] leading-[normal] self-start text-[#FFFDE7]">Date:</span>January, 12-2023</p>
+                        </div>
+                    </div>
+
+                    <span class="text-[#FFFDE7] text-[1.9rem] font-[400] leading-normal text-right">&pound;125.00</span>
+                </div>
+                <div class="text-white flex items-center justify-between">
+                    <div class="flex items-center gap-[.5rem]">
+                        <div class="w-[2.5rem] h-[2.5rem] rounded-full bg-[#51D289] flex items-center justify-center">
+                            <img src="./images/saving.svg" alt="saving">
+                        </div>
+                        <div>
+                            <p>Debts</p>
+                        <p class="flex font-[700]"> <span class="font-[400] text-[.6rem] leading-[normal] self-start text-[#FFFDE7]">Date:</span>January, 12-2023</p>
+                        </div>
+                    </div>
+
+                    <span class="text-[#FFFDE7] text-[1.9rem] font-[400] leading-normal text-right">&pound;125.00</span>
+                </div>
+                <div class="text-white flex items-center justify-between">
+                    <div class="flex items-center gap-[.5rem]">
+                        <div class="w-[2.5rem] h-[2.5rem] rounded-full bg-[#51D289]">
+                            <img src="./images/health.svg" alt="health">
+                        </div>
+                        <div>
+                            <p>Debts</p>
+                        <p class="flex font-[700]"> <span class="font-[400] text-[.6rem] leading-[normal] self-start text-[#FFFDE7]">Date:</span>January, 12-2023</p>
+                        </div>
+                    </div>
+
+                    <span class="text-[#FFFDE7] text-[1.9rem] font-[400] leading-normal text-right">&pound;125.00</span>
+                </div>
+            </div>
+        </section>
+   </div>
+</div>
+</body>
+</html>
